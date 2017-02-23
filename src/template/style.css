@@ -1,0 +1,149 @@
+td {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FFFFFF;
+	line-height : 16px;
+}
+body {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FFFFFF;
+        background-color: #000000;
+	line-height : 16px;
+        background-attachment: fixed;
+}
+
+#hintergrund {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#inhalt {
+    background-color: #000000;
+    border: 1px solid;
+}
+
+a:link {
+	color : #FFFFFF;
+	text-decoration : none;
+}
+a:visited {
+	color : #FFFFFF;
+	text-decoration : none;
+}
+a:hover {
+	color : #FFFFFF;
+	text-decoration : none;
+}
+a:active {
+	color : #FFFFFF;
+	text-decoration : none;
+}
+
+
+a.user:link {
+	color : #FFFFFF;
+	text-decoration : underline;
+}
+
+a.user:visited {
+	color : #FFFFFF;
+	text-decoration : underline;
+}
+
+a.user:hover {
+	color: #FFFFFF;
+	text-decoration : none;
+}
+
+a.user:active {
+	color: #FFFFFF;
+	text-decoration : underline;
+}
+input {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+               height:18px;
+               background-color: #999999;
+               border-left: 1px solid #000000;
+               border-bottom: 1px solid #000000;
+               border-right: 1px solid #000000;
+               border-top: 1px solid #000000;
+	font-size : 11px;
+}
+input.button {
+margin-top:0px;
+padding-top:0px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+             height:18px;
+	font-size : 11px;
+	line-height : 12px;
+               background-color:#999999;
+               color:#000000;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+ }
+.checkbox {
+ background-color:#EFEFEF;
+  border-top: 0px solid #EFEFEF;
+  border-left: 0px solid #000000;
+  border-right: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+.select {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+textarea {
+               background-color: #999999;
+               border-left: 1px solid #000000;
+               border-bottom: 1px solid #000000;
+               border-right: 1px solid #000000;
+               border-top: 1px solid #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+select {
+    background-color: #999999;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-size : 11px;
+}
+
+.menuebutton {
+    display: inline-block;
+    border: solid 1px;
+    border-color: #14272d;
+    padding: 5px;
+    text-align: center;
+    background-image: url('../images/buttonbg.png');
+}
+
+.raidbutton {
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    border: solid 1px;
+    border-color: #14272d;
+    padding: 5px;
+    text-align: center;
+    background-image: url('../images/buttonbg.png');
+}
+
+.messagetable {
+    background-image: url('../images/buttonbg.png');
+}
+
